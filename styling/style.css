@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Quicksand', sans-serif;
-  background-color: rgb(6, 16, 27);
+  background-color: rgb(23, 37, 53);
   color: aliceblue;
 }
 
@@ -52,7 +52,7 @@ a:hover {
 }
 
 .ss p {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.253);
   font-size: 18px;
   height: 30px;
   padding: 5px;

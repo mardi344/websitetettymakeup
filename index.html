@@ -10,6 +10,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="/styling/style.css">
 </head>
 <body>
@@ -68,16 +69,16 @@
     </div>
   </div>
 
-  <div class="container text-center mb-3">
+  <div class="container text-center mb-3" data-aos="fade-up">
     <h1>PORTOFOLIO</h1>
   </div>
   <!-- end : home -->
   <div class="container" style="display: flex; justify-content: center; flex-wrap: wrap;">
     <div class="text-center my-5" style="border-top: 1px solid rgba(255, 255, 255, 0.24); width: 100%; border-bottom: 1px solid rgba(255, 255, 255, 0.24); width: 100%;">
-      <h2>Make up Artist</h2>
+      <h2 data-aos="fade-right">Make up Artist</h2>
     </div>
     <div class="content">
-      <div class="col-md-5 boxexample">
+      <div class="col-md-5 boxexample" data-aos="fade-up-right">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -109,7 +110,7 @@
           </button>
         </div>
       </div>
-      <div class="col-md-5" style="display: flex; align-items: center; padding: 20px;">
+      <div class="col-md-5" style="display: flex; align-items: center; padding: 20px;" data-aos="fade-up-left">
         <p>
           Example Make Up pernikahan, wisuda, dan lainnya.
           <br>
@@ -118,15 +119,15 @@
       </div>
     </div>
     <div class="text-center my-5" style="border-top: 1px solid rgba(255, 255, 255, 0.24); width: 100%; border-bottom: 1px solid rgba(255, 255, 255, 0.24); width: 100%;">
-      <h2>MC (Master of Ceremony)</h2>
+      <h2 data-aos="fade-left">MC (Master of Ceremony)</h2>
     </div>
     <div class="content">
-      <div class="col-md-5" style="display: flex; align-items: center; padding: 20px;">
+      <div class="col-md-5" style="display: flex; align-items: center; padding: 20px;" data-aos="fade-up-right">
         <p>
           Berapa dokumentasi Mc dalam acara pernikahan dari lamaran , akad hingga resepsi, dan juga beberapa acara seminar , dan lainnya. 
         </p>
       </div>
-      <div class="col-md-5 boxexample">
+      <div class="col-md-5 boxexample" data-aos="fade-up-left">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
@@ -162,7 +163,10 @@
     </svg> Created By Mardi</a>
   </footer>
   <!-- end : footer -->
-
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   <script src="/js/bootstrap.js"></script>
 </body>
 </html>
