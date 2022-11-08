@@ -2,15 +2,20 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Quicksand', sans-serif;
-  background-color: rgb(23, 37, 53);
-  color: aliceblue;
+  background-color: whitesmoke;
+  color: rgb(0, 0, 0);
 }
 
 .navbar {
-  background-color: rgb(255, 255, 255);
-  border-bottom: 1px solid  rgba(141, 53, 53, 0.295);
+  /* background-color: rgb(23, 37, 53); */
+  background-color: rgb(0, 0, 0);
   height: 50px;
-  box-shadow: 0px 2px 10px  rgba(141, 53, 53, 0.295);
+  color: aliceblue;
+  border-bottom: 1px solid rgba(245, 245, 245, 0.5);
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  top: 0;
 }
 
 a:hover {
@@ -30,7 +35,8 @@ a:hover {
   background-size: cover;
   margin-bottom: 50px;
   height: 600px;
-  box-shadow: 0px 5px 5px black;
+  box-shadow: 10px 5px 5px 5px black;
+  margin-top: 45px;
 }
 
 .logo .tt {
@@ -83,7 +89,7 @@ a:hover {
 }
 
 .boxexample {
-  box-shadow: 7px 7px 3px rgba(255, 255, 255, 0.295);
+  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.5);
   margin: 20px;
 }
 
@@ -97,9 +103,9 @@ footer {
   width: 100%;
   display: flex;
   justify-content: center;
-  background-color: white;
+  background-color: rgb(0, 0, 0);
   text-align: center;
-  color: black;
+  color: rgb(255, 255, 255);
   align-items: center;
   padding: 5px;
   font-size: small;
